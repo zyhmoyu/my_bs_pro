@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body{
+	color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+h1,h2,h6,h3{
+	color: #222;
+}
+h2{
+	font-weight: 500;
+}
+h4,h6,h3{
+	font-size: 18px;
+	font-weight: 600;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*外边距*/
+.my-m-center{
+	margin: 0 auto;
+}
+.my-mb-30{
+	margin-bottom: 30px;
+}
+.my-mb-60{
+	margin-bottom: 60px;
+}
+/*zindex*/
+.my-zIndex-100 {
+	z-index: 100;
+}
+.my-zIndex-10{
+	z-index: 10;
+}
+/*偏移*/
+.my-top-0{
+	top: 0;
+	left: 0;
+}
+/*内边距*/
+.my-section-gap{
+	padding: 120px 0;
+}
+.my-pb-60{
+	padding-bottom: 60px;
+}
+/*前景*/
+h4 a{
+	color: #222;
+}
+.my-lnr-user{
+	margin-right: 12px;
+}
+
+/*背景*/
+.my-bg-purple,
+.single-footer-widget .click-btn,
+.primary-btn,
+.my-overlay-bg,
+h2.counter,
+.my-single-feature:hover{
+	
+	background: linear-gradient( 0deg,#b21aff 0%,#732bde 100%);
+}
+.my-single-feature{
+	background: #F9F9FF;
+	padding: 30px 30px 15px;
+	transition: all .5s linear;
+}
+.my-single-feature:hover{
+	color: #fff;
+}
+
+.my-single-feature:hover a{
+	color: #fff;
+}
+.my-single-feature:hover .my-lnr-user:before{
+	background: url(../img/icon_q0nyy5bv7ms/224userwhite.svg);
+}
+.my-lnr-user:before{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/icon_q0nyy5bv7ms/224user.svg);
+}
+.my-img-fluid{
+	width: 100%;
+}
+/*自写*/
+@media (min-width:576px ) {
+	.my-w-head {
+		max-width: 540px;
+	}
+	
+}
+@media (min-width:768px ) {
+	.my-w-head {
+		max-width: 720px;
+	}
+	.my-lg-text-right{
+		text-align: right;
+	}
+}
+@media (min-width:992px ) {
+	.my-w-head {
+		max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	#demo div div div h1 {
+		font-size: 72px;
+	}
+	.my-w-head {
+		max-width: 1140px;
+	}
+	.my-xl-p-auto{
+		padding: 0 114px;
+	}
+}

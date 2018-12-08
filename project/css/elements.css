@@ -1,0 +1,115 @@
+
+/*边框*/
+.my-bb{
+	border-bottom: 1px solid #efefef;
+}
+/*内边距*/
+.my-ptb-60{
+	padding: 60px 0;
+}
+.my-btn{
+	padding: 10px 20px;
+	background: rgba(100,100,100,.1);
+	font-weight: 500;
+	box-sizing: border-box;
+}
+.my-btn-raidus{
+	border-radius: 5px;
+}
+.my-btn-raidusq{
+	border-radius: 22px;
+}
+.my-btn-dangered,
+.my-btn-defaulted,
+.my-btn-warninged,
+.my-btn-infoed,
+.my-btn-successed,
+.my-btn-primaryed,
+.my-btn-danger:hover,
+.my-btn-default:hover,
+.my-btn-warning:hover,
+.my-btn-info:hover,
+.my-btn-success:hover,
+.my-btn-primary:hover{
+	background: #fff;
+}
+.my-btn-dangered:hover,
+.my-btn-defaulted:hover,
+.my-btn-warninged:hover,
+.my-btn-infoed:hover,
+.my-btn-successed:hover,
+.my-btn-primaryed:hover,
+.my-btn-danger,
+.my-btn-default,
+.my-btn-warning,
+.my-btn-info,
+.my-btn-primary,
+.my-btn-success{
+	color: #fff;
+	border: 1px solid transparent;
+}
+.my-btn-primaryed:hover,
+.my-btn-primary{
+    background: #b01afe;
+}
+.my-btn-primaryed,
+.my-btn-primary:hover{
+	color: #b01afe;
+	border:1px solid #b01afe;
+}
+.my-btn-successed:hover,
+.my-btn-success{
+    background: #4cd3e3;;
+}
+.my-btn-successed,
+.my-btn-success:hover{
+	color: #4cd3e3;
+	border:1px solid #4cd3e3;
+}
+.my-btn-infoed:hover,
+.my-btn-info{
+    background: #38a4ff;
+}
+.my-btn-infoed,
+.my-btn-info:hover{
+	color: #38a4ff;
+	border:1px solid #38a4ff;
+}
+.my-btn-warninged:hover,
+.my-btn-warning{
+    background: #f4e700;
+}
+.my-btn-warninged,
+.my-btn-warning:hover{
+	color: #f4e700;
+	border:1px solid #f4e700;
+}
+.my-btn-dangered:hover,
+.my-btn-danger{
+    background: #f44a40;
+}
+.my-btn-dangered,
+.my-btn-danger:hover{
+	color: #f44a40;
+	border:1px solid #f44a40;
+}
+.my-btn-link,
+.my-btn-default{
+    background: #fbfbfb;
+    border: 1px solid transparent;
+}
+.my-btn-default,
+.my-btn-link,
+.my-btn-default:hover{
+	color: #000;
+}
+.my-btn-default:hover{
+	border: 1px solid #FaFaFa;
+}
+.my-btn-disable{
+	cursor: not-allowed;
+}
+.my-btn-link:hover,
+.my-btn-link{
+	text-decoration: underline;
+}

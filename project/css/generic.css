@@ -1,0 +1,20 @@
+/*高度*/
+.my-h-648{
+	height: 648px;
+}
+h1{
+	font-weight: 700;
+	font-size: 32px;
+}
+p{
+	font-size: 1.2em;
+}
+h3{
+	font-size: 24px;
+}
+h3~div{
+	font-size: 12px;
+}
+.my-indent{
+	text-indent: 1em;
+}
